@@ -34,6 +34,13 @@ class {
     this.state.running = false;
     this.state.elapsedTime = 0;
   }
+
+  check() {
+    this.setState({
+      foo: 'bar'
+      baz: 'qux'
+    })
+  }
 }
 
 <div>
